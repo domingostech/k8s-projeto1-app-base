@@ -5,7 +5,7 @@ $("#button-blue").on("click", function() {
     var txt_comentario = $("#comment").val();
 
     $.ajax({
-        url: "",
+        url: "http://10.101.175.81",
         
         type: "post",
         data: {nome: txt_nome, comentario: txt_comentario, email: txt_email},
